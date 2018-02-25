@@ -15,5 +15,8 @@ public class AreaOfCircle {
 	public double Area() {
 		return radius*radius*Math.PI;
 	}
+	public double HalfArea(){
+		return (radius*radius*Math.PI)/2;
+	}
 
 }
